@@ -1,0 +1,27 @@
+.gridcontainer {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 40px auto 40px;
+}
+
+.gridheader {
+    grid-column: 2 / -1;
+    background-color: red;
+}
+
+.gridmenu {
+    grid-row: 1 / -1;
+    background-color: black;
+    color: white;
+}
+
+.gridcontent {
+    grid-column: 2 / -1;
+    background-color: green;
+}
+
+.gridfooter {
+    grid-column: 2 / -1;
+    background-color: blue;
+}
